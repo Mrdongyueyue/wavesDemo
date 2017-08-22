@@ -15,6 +15,8 @@
 		3C0973631E262124002AB6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0973611E262124002AB6CE /* LaunchScreen.storyboard */; };
 		3C09736E1E262124002AB6CE /* wavesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09736D1E262124002AB6CE /* wavesDemoTests.m */; };
 		3C0973791E262124002AB6CE /* wavesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0973781E262124002AB6CE /* wavesDemoUITests.m */; };
+		3C19D2151F4BDCBE00310892 /* YYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C19D2141F4BDCBE00310892 /* YYWaveView.m */; };
+		3CE4AD381E2903E200CA4F43 /* BezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE4AD371E2903E200CA4F43 /* BezierPathViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3C0973741E262124002AB6CE /* wavesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wavesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0973781E262124002AB6CE /* wavesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wavesDemoUITests.m; sourceTree = "<group>"; };
 		3C09737A1E262124002AB6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C19D2131F4BDCBE00310892 /* YYWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWaveView.h; sourceTree = "<group>"; };
+		3C19D2141F4BDCBE00310892 /* YYWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWaveView.m; sourceTree = "<group>"; };
+		3CE4AD361E2903E200CA4F43 /* BezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathViewController.h; sourceTree = "<group>"; };
+		3CE4AD371E2903E200CA4F43 /* BezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				3C0973571E262124002AB6CE /* AppDelegate.m */,
 				3C0973591E262124002AB6CE /* ViewController.h */,
 				3C09735A1E262124002AB6CE /* ViewController.m */,
+				3CE4AD361E2903E200CA4F43 /* BezierPathViewController.h */,
+				3CE4AD371E2903E200CA4F43 /* BezierPathViewController.m */,
+				3C19D2131F4BDCBE00310892 /* YYWaveView.h */,
+				3C19D2141F4BDCBE00310892 /* YYWaveView.m */,
 				3C09735C1E262124002AB6CE /* Main.storyboard */,
 				3C09735F1E262124002AB6CE /* Assets.xcassets */,
 				3C0973611E262124002AB6CE /* LaunchScreen.storyboard */,
@@ -274,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C09735B1E262124002AB6CE /* ViewController.m in Sources */,
+				3C19D2151F4BDCBE00310892 /* YYWaveView.m in Sources */,
 				3C0973581E262124002AB6CE /* AppDelegate.m in Sources */,
+				3CE4AD381E2903E200CA4F43 /* BezierPathViewController.m in Sources */,
 				3C0973551E262124002AB6CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				3C09737F1E262124002AB6CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0973801E262124002AB6CE /* Build configuration list for PBXNativeTarget "wavesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				3C0973821E262124002AB6CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0973831E262124002AB6CE /* Build configuration list for PBXNativeTarget "wavesDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				3C0973851E262124002AB6CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
