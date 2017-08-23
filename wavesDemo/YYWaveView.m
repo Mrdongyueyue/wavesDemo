@@ -69,7 +69,7 @@
     [_path0 moveToPoint:CGPointZero];
     [_path1 moveToPoint:CGPointZero];
     CGFloat width = self.bounds.size.width;
-    for (NSInteger i = 0; i < (NSInteger)width; i ++) {
+    for (NSInteger i = 0; i <= (NSInteger)width; i ++) {
         CGFloat x = i;
         CGFloat y = A * sin(ω*x+φ)+k;
         CGFloat y2 = A * cos(ω*x+φ)+k;
